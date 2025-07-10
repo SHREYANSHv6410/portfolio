@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  font-size:18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +42,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.SpaceBetweenComponents{
+  margin-top:6rem;
+  margin-bottom:6rem;
 }

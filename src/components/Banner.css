@@ -1,0 +1,32 @@
+.banner {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrolling-text {
+  display: inline-flex;
+  animation: scroll-left 30s linear infinite;
+}
+
+.scrolling-text span {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 0.5rem;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.CustomBannerText {
+  font-family: "Italiana", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+}
