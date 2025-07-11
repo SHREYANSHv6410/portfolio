@@ -31,7 +31,7 @@ function Projects() {
       <Row>
         {projectList.map((proj, index) => (
           <Col md={6} key={index} className="my-2 rounded-3 shadow">
-            <Card text="white" style={{ backgroundColor: "rgb(44, 51, 55)" }}>
+            <Card text="white" style={{ backgroundColor: "rgb(28, 31, 42)" }}>
               <Card.Body>
                 <Card.Title>{proj.title}</Card.Title>
                 <Card.Text>

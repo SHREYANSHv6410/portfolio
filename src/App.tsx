@@ -17,7 +17,13 @@ function App() {
   };
   return (
     <div>
-      <div className="bg-dark text-white">
+      <div
+        className="text-white"
+        style={{
+          backgroundImage:
+            "linear-gradient(135deg, rgb(40, 47, 54), rgb(0, 0, 0))",
+        }}
+      >
         <header>
           <NavigationBar />
         </header>
@@ -29,8 +35,14 @@ function App() {
           </section>
 
           <section className="SpaceBetweenComponents">
-            <Skills />
-            <Astronaut />
+            <div className="row align-items-center">
+              <div className="row col-md-6 col-12">
+                <Skills />
+              </div>
+              <div className="row col-md-6 col-12 text-end">
+                <Astronaut />
+              </div>
+            </div>
           </section>
           <section className="SpaceBetweenComponents">
             <Projects />

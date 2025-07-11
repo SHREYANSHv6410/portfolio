@@ -1,13 +1,14 @@
 .astronaut{
     width: 400px;
   animation: bobbing 6s ease-in-out infinite;
-  position: absolute;
-  top: 740px;
-  right: 150px;
+  
+  width:100%;
+  max-width:400px;
+  margin:auto;
   z-index: 10;
 }
 @keyframes bobbing{
     0%{transform:translateY(0);}
-    50%{transform:translateY(150px);}
+    50%{transform:translateY(100px);}
     100%{transform:translateY(0);}
 }

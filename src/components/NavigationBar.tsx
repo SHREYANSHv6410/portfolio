@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 function NavigationBar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar variant="dark" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="#">
           <section style={{ marginTop: "3rem" }}>
